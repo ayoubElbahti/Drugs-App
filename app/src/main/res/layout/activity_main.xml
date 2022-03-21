@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/Age_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemple : 21"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sex : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <RadioGroup
+        android:id="@+id/customIconSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio2"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cholesterol : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <RadioGroup
+        android:id="@+id/Cholesterol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio3"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGH"
+            />
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NORMAL"
+            />
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOW"
+            />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BP : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <RadioGroup
+        android:id="@+id/BP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio7"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIGH"
+            />
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NORMAL"
+            />
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOW"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Na : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/Na_v"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemple : 0.254878"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="K : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/K"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemple : 0.254878"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_welcom"
+        android:text="Result"
+        />
+    <Button
+        android:id="@+id/raz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_welcom"
+        android:text="Annuler"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drugs :"
+        />
+
+    <TextView
+        android:id="@+id/result_drugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DrugX"
+        android:textColor="#5DE18D" />
+</LinearLayout>
