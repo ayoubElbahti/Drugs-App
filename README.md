@@ -1,5 +1,5 @@
 # Drugs-App
-## Create BI Android Application wich get best drug for diseases
+## Create BI Android Application wich looks for the best drugs for diseases
 
 In my Application I'am using Decision Trees Algorithme to get drug 'Result' by several calculations.
 
